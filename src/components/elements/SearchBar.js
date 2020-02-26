@@ -21,7 +21,7 @@ const SearchBar =  ({ callback }) => {
         <StyledSearchBar>
             <StyledSearchBarContent>
                 <FontAwesome className="fa-search" name="search" size="2x" />
-                <input type="text" placeholder="Search Movie" onChange={doSearch} value={state} />
+                <input type="text" placeholder="Search for a movie" onChange={doSearch} value={state} />
             </StyledSearchBarContent>
         </StyledSearchBar>
     )
